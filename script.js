@@ -1,5 +1,5 @@
 // Configuration
-const API_ENDPOINT = 'http://localhost:5000/generate';
+const API_ENDPOINT = 'https://vedansh221.github.io/img-bot/generate';
 
 // DOM Elements
 const promptTextarea = document.getElementById('prompt');
