@@ -14,7 +14,7 @@ CORS(app)
 HF_TOKEN = os.getenv("HF_TOKEN", "")
 
 # Hugging Face Inference API endpoint for Flux Dev model
-API_URL = "https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-dev"
+API_URL = "https://router.huggingface.co/fal-ai/fal-ai/flux-2/edit?_subdomain=queue"
 headers = {
     "Authorization": f"Bearer {HF_TOKEN}"
 }
