@@ -26,9 +26,10 @@ def query_hf_api(payload):
     """
     response = requests.post(API_URL, headers=headers, json=payload, timeout=120)
     return response
-
-@app.route('/generate', methods=['POST'])
-def generate_image():
+    
+@app.route('/')
+def home():
+    return "Backend running!"
     """Generate image from prompt using Flux Dev model via HuggingFace API"""
     try:
         data = request.json
